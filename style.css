@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.outerDiv {
+    display: flex;
+    flex-direction:column;
+    border: 1px solid black;
+    max-width: 700px;
+}
+
+.titleValue {
+    display: flex;
+
+}
+
+.title {
+    border: 1px solid black;
+    width: 100px;
+    margin: 1px;
+}
+
+.value {
+    border: 1px solid black;
+    width: 100%;
+    margin: 1px;
+}
